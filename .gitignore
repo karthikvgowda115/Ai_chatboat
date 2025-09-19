@@ -1,0 +1,11 @@
+# Node.js
+node_modules/
+build/
+dist/
+
+# Environment files
+backend/.env
+frontend/.env
+
+# Windows junk
+*.lnk
