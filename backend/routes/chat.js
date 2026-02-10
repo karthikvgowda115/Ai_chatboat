@@ -9,7 +9,7 @@ import {
 const router = express.Router();
 
 router.post("/send", sendMessage);
-router.get("/sessions", getSessions);
+router.get("/sessions", getSessions.);
 router.get("/history/:sessionId", getChatHistory);
 router.delete("/history/:sessionId", clearChatHistory);
 
