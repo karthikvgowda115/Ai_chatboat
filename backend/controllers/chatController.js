@@ -14,7 +14,7 @@ export async function sendMessage(req, res) {
     if (!message) {
       return res.status(400).json({ error: "Message is required" });
     }
-
+    
     let sessionId = clientSessionId || generateSessionId();
 
     // ✅ Create session if it does not exist
